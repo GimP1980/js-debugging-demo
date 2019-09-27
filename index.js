@@ -33,7 +33,7 @@ function arraySum(a, b)
 
     for(let i = 1; i < a.length; i++)
     {        
-        result = a[i] + b[i];        
+        result = a[i] - b[i];        
     }
 
     return result;
